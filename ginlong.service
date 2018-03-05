@@ -1,0 +1,17 @@
+[Unit]
+Description = GinLong listener service
+After = syslog.target network.target
+
+[Service]
+Type=simple
+User=pi
+Groep=pi
+Nice=5
+KillSignal=SIGINT
+ExecStart=/home/pi/ginlong-listen.py
+ Restart=on-failure
+ StandardOutput=syslog
+WorkingDirectory=/home/pi
+
+[Install]
+WantedBy=multi-user.target 
