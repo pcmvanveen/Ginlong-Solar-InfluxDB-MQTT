@@ -23,7 +23,7 @@
 import paho.mqtt.client as mqtt
 import socket
 import binascii
-import time
+import datetime
 import sys
 import string
 import ConfigParser
@@ -67,9 +67,8 @@ while True:
         # while True:
             rawdata = conn.recv(1000) # Read in a chunk of data
             hexdata = binascii.hexlify(rawdata) # Convert to hex for easier processing
-	    timestamp = (time.strftime("%F %H:%M"))
+	    timestamp = datetime.datetime.now() # get the time
 	    if(len(hexdata) == 276):
-                timestamp = (time.strftime("%F %H:%M")) # get date time
                 serial = binascii.unhexlify(str(hexdata[30:60])) # Serial number is used for MQTT path, allowing multiple inverters to connect to a single instance
                 if __debug__:
                     print 'Hex data: %s' % hexdata
@@ -85,13 +84,21 @@ while True:
                 ipv1 = float(int(hexdata[78:82],16))/10
                 ipv2 = float(int(hexdata[82:86],16))/10
                 vac1 = float(int(hexdata[102:106],16))/10
-                iac1 = float(int(hexdata[88:92],16))/10
-                #pac = float(int(hexdata[136:140],16))/10
-		pac = (vpv1*ipv1+vpv2*ipv2)*0.975
+                iac1 = float(int(hexdata[90:94],16))/10
+                #pac = float(int(hexdata[118:122],16))
+		pac = float((vpv1*ipv1+vpv2*ipv2)*0.975)
                 fac = float(int(hexdata[114:118],16))/100
                 temp = float(int(hexdata[62:66],16))/10
                 kwhtoday = float(int(hexdata[138:142],16))/100
                 kwhtotal = float(int(hexdata[146:150],16))/10
+
+		# adjust first value of the day
+		dayinit = open("initday.txt","r+")
+		day = timestamp.strftime("%d")
+		if float(dayinit.readline()) != day:
+			if pac == 0 : kwhtoday = float(0)
+			else: dayinit.write(day)
+		dayinit.close()
 
 		#### Build Json string
 		DataJson = [ {"measurement":"SolarPanel",
@@ -101,7 +108,8 @@ while True:
 					"VoltagePv2":vpv2,
 					"CurrentPv1":ipv1,
 					"CurrentPv2":ipv2,
-					"MainVoltage":vac1,
+					"LineVoltage":vac1,
+					"LineCurrent":iac1,
 					"SolarPower":pac,
 					"Frequency":fac,
 					"Temperatuur":temp,
@@ -114,7 +122,7 @@ while True:
 		if __debug__:
 		    print "Json Buffer %s" % DataJson
 		    file = open("rawlog",'a')
-                    file.write(timestamp + ' ' + hexdata + '\n')
+                    file.write(timestamp.strftime('%d %b %Y - %H:%M:%S') + ' ' + hexdata + '\n')
                     file.close()
 
 
