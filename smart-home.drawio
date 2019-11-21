@@ -1,37 +1,9 @@
-<mxfile host="www.draw.io" modified="2019-11-21T14:19:55.698Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="B5nTCQBkepLTEzBd7npg" version="12.2.8" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2019-11-21T18:07:29.424Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="VAgogMWQFAQ5BarLmScu" version="12.2.8" type="github" pages="3">
   <diagram id="RRbCEkmqkF7tnA--R-60" name="Movement">
-    <mxGraphModel dx="1024" dy="485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
-        <mxCell id="Y9OF2ONfVtvooRnaM7Or-1" value="" style="group;rounded=0;labelBackgroundColor=none;fillColor=none;fontColor=#000000;align=center;html=1;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="70" y="60" width="120" height="130" as="geometry"/>
-          <C4Person as="c4"/>
-        </mxCell>
-        <mxCell id="Y9OF2ONfVtvooRnaM7Or-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="Y9OF2ONfVtvooRnaM7Or-1" source="Y9OF2ONfVtvooRnaM7Or-2" target="Y9OF2ONfVtvooRnaM7Or-5" edge="1">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="Y9OF2ONfVtvooRnaM7Or-7" value="MQTT" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" parent="Y9OF2ONfVtvooRnaM7Or-6" vertex="1" connectable="0">
-          <mxGeometry x="-0.165" relative="1" as="geometry">
-            <mxPoint as="offset"/>
-          </mxGeometry>
-        </mxCell>
-        <object label="Beweging&lt;div&gt;[Person]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Bewegings sensor&lt;/div&gt;&lt;div&gt;detecteert beweging&lt;/div&gt;" placeholders="1" c4Name="Beweging" c4Type="body" c4Description="Bewegings sensor activiteit" id="Y9OF2ONfVtvooRnaM7Or-2">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=33;strokeColor=#6c8ebf;" parent="Y9OF2ONfVtvooRnaM7Or-1" vertex="1">
-            <mxGeometry y="51" width="120" height="79" as="geometry"/>
-            <C4Person as="c4"/>
-          </mxCell>
-        </object>
-        <object label="Beweging&lt;div&gt;[Person]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Bewegings sensor&lt;/div&gt;&lt;div&gt;detecteert beweging&lt;/div&gt;" placeholders="1" c4Name="Beweging" c4Type="body" c4Description="Bewegings sensor activiteit" id="Y9OF2ONfVtvooRnaM7Or-5">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=33;strokeColor=#6c8ebf;" parent="Y9OF2ONfVtvooRnaM7Or-1" vertex="1">
-            <mxGeometry x="200" y="51" width="120" height="79" as="geometry"/>
-            <C4Person as="c4"/>
-          </mxCell>
-        </object>
-        <mxCell id="Y9OF2ONfVtvooRnaM7Or-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;labelBackgroundColor=none;fillColor=#dae8fc;fontSize=12;fontColor=#000000;align=center;strokeColor=#6c8ebf;" parent="Y9OF2ONfVtvooRnaM7Or-1" vertex="1">
-          <mxGeometry x="27.5" width="55" height="55" as="geometry"/>
-          <C4Person as="c4"/>
-        </mxCell>
         <mxCell id="Y9OF2ONfVtvooRnaM7Or-9" value="Update&amp;nbsp;&lt;br&gt;status" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Y9OF2ONfVtvooRnaM7Or-4" target="Y9OF2ONfVtvooRnaM7Or-8" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
@@ -56,6 +28,14 @@
             <C4Component as="c4"/>
           </mxCell>
         </object>
+        <mxCell id="4PxpAGfARxo6lsyyR93c-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4PxpAGfARxo6lsyyR93c-1" target="Y9OF2ONfVtvooRnaM7Or-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="151" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4PxpAGfARxo6lsyyR93c-1" value="Kitchen Hue" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/users/sensor.svg;" vertex="1" parent="1">
+          <mxGeometry x="120" y="70" width="60" height="60" as="geometry"/>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
