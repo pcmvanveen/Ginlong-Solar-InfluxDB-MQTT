@@ -1,57 +1,57 @@
-<mxfile host="www.draw.io" modified="2019-11-21T13:50:23.444Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="mqyxQULE3swhxEnRjjcB" version="12.2.8" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2019-11-21T14:19:55.698Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="B5nTCQBkepLTEzBd7npg" version="12.2.8" type="github" pages="3">
   <diagram id="RRbCEkmqkF7tnA--R-60" name="Movement">
     <mxGraphModel dx="1024" dy="485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
-        <mxCell id="Y9OF2ONfVtvooRnaM7Or-1" value="" style="group;rounded=0;labelBackgroundColor=none;fillColor=none;fontColor=#000000;align=center;html=1;" vertex="1" connectable="0" parent="1">
+        <mxCell id="Y9OF2ONfVtvooRnaM7Or-1" value="" style="group;rounded=0;labelBackgroundColor=none;fillColor=none;fontColor=#000000;align=center;html=1;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="70" y="60" width="120" height="130" as="geometry"/>
           <C4Person as="c4"/>
         </mxCell>
-        <mxCell id="Y9OF2ONfVtvooRnaM7Or-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y9OF2ONfVtvooRnaM7Or-1" source="Y9OF2ONfVtvooRnaM7Or-2" target="Y9OF2ONfVtvooRnaM7Or-5">
+        <mxCell id="Y9OF2ONfVtvooRnaM7Or-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="Y9OF2ONfVtvooRnaM7Or-1" source="Y9OF2ONfVtvooRnaM7Or-2" target="Y9OF2ONfVtvooRnaM7Or-5" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="Y9OF2ONfVtvooRnaM7Or-7" value="MQTT" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="Y9OF2ONfVtvooRnaM7Or-6">
+        <mxCell id="Y9OF2ONfVtvooRnaM7Or-7" value="MQTT" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" parent="Y9OF2ONfVtvooRnaM7Or-6" vertex="1" connectable="0">
           <mxGeometry x="-0.165" relative="1" as="geometry">
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
         <object label="Beweging&lt;div&gt;[Person]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Bewegings sensor&lt;/div&gt;&lt;div&gt;detecteert beweging&lt;/div&gt;" placeholders="1" c4Name="Beweging" c4Type="body" c4Description="Bewegings sensor activiteit" id="Y9OF2ONfVtvooRnaM7Or-2">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=33;strokeColor=#6c8ebf;" vertex="1" parent="Y9OF2ONfVtvooRnaM7Or-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=33;strokeColor=#6c8ebf;" parent="Y9OF2ONfVtvooRnaM7Or-1" vertex="1">
             <mxGeometry y="51" width="120" height="79" as="geometry"/>
             <C4Person as="c4"/>
           </mxCell>
         </object>
         <object label="Beweging&lt;div&gt;[Person]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Bewegings sensor&lt;/div&gt;&lt;div&gt;detecteert beweging&lt;/div&gt;" placeholders="1" c4Name="Beweging" c4Type="body" c4Description="Bewegings sensor activiteit" id="Y9OF2ONfVtvooRnaM7Or-5">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=33;strokeColor=#6c8ebf;" vertex="1" parent="Y9OF2ONfVtvooRnaM7Or-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=33;strokeColor=#6c8ebf;" parent="Y9OF2ONfVtvooRnaM7Or-1" vertex="1">
             <mxGeometry x="200" y="51" width="120" height="79" as="geometry"/>
             <C4Person as="c4"/>
           </mxCell>
         </object>
-        <mxCell id="Y9OF2ONfVtvooRnaM7Or-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;labelBackgroundColor=none;fillColor=#dae8fc;fontSize=12;fontColor=#000000;align=center;strokeColor=#6c8ebf;" vertex="1" parent="Y9OF2ONfVtvooRnaM7Or-1">
+        <mxCell id="Y9OF2ONfVtvooRnaM7Or-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;labelBackgroundColor=none;fillColor=#dae8fc;fontSize=12;fontColor=#000000;align=center;strokeColor=#6c8ebf;" parent="Y9OF2ONfVtvooRnaM7Or-1" vertex="1">
           <mxGeometry x="27.5" width="55" height="55" as="geometry"/>
           <C4Person as="c4"/>
         </mxCell>
-        <mxCell id="Y9OF2ONfVtvooRnaM7Or-9" value="Update&amp;nbsp;&lt;br&gt;status" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y9OF2ONfVtvooRnaM7Or-4" target="Y9OF2ONfVtvooRnaM7Or-8">
+        <mxCell id="Y9OF2ONfVtvooRnaM7Or-9" value="Update&amp;nbsp;&lt;br&gt;status" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Y9OF2ONfVtvooRnaM7Or-4" target="Y9OF2ONfVtvooRnaM7Or-8" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <object label="&lt;span&gt;Sensor&lt;/span&gt;&lt;div&gt;[Container:&amp;nbsp;&lt;span&gt;technology&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Ghost detectie to set&amp;nbsp;&lt;br&gt;GL:Movement (bool)&lt;/div&gt;" placeholders="1" c4Name="name" c4Type="Container" c4Technology="technology" c4Description="Beschreibung" id="Y9OF2ONfVtvooRnaM7Or-4">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=6;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=6;strokeColor=#6c8ebf;" parent="1" vertex="1">
             <mxGeometry x="280" y="90" width="160" height="110" as="geometry"/>
             <C4Container as="c4"/>
           </mxCell>
         </object>
         <object label="Timer&lt;br&gt;&lt;div&gt;[Container:&amp;nbsp;&lt;span&gt;technology&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Timer to disable&amp;nbsp;&lt;/div&gt;&lt;div&gt;GL:Movement&lt;/div&gt;" placeholders="1" c4Name="Timer" c4Type="Container" c4Technology="technology" c4Description="op basis van de 24 klok worden bepaalde condities gezet voor het disablen van de movement (bool)" id="Y9OF2ONfVtvooRnaM7Or-8">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=6;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=6;strokeColor=#6c8ebf;" parent="1" vertex="1">
             <mxGeometry x="500" y="90" width="160" height="110" as="geometry"/>
             <C4Container as="c4"/>
           </mxCell>
         </object>
-        <mxCell id="Y9OF2ONfVtvooRnaM7Or-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y9OF2ONfVtvooRnaM7Or-10" target="Y9OF2ONfVtvooRnaM7Or-8">
+        <mxCell id="Y9OF2ONfVtvooRnaM7Or-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Y9OF2ONfVtvooRnaM7Or-10" target="Y9OF2ONfVtvooRnaM7Or-8" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <object label="&lt;span&gt;Timer influencer&lt;/span&gt;&lt;div&gt;[Component:&amp;nbsp;&lt;span&gt;technology&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;condities welke de timer beinvloeden&lt;/div&gt;" placeholders="1" c4Name="name" c4Type="Component" c4Technology="technology" c4Description="Beschreibung" id="Y9OF2ONfVtvooRnaM7Or-10">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=7;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=7;strokeColor=#6c8ebf;" parent="1" vertex="1">
             <mxGeometry x="500" y="270" width="160" height="110" as="geometry"/>
             <C4Component as="c4"/>
           </mxCell>
@@ -73,23 +73,33 @@
         <mxCell id="E3brIGEzg_rA6OR0wNOF-0"/>
         <mxCell id="E3brIGEzg_rA6OR0wNOF-1" parent="E3brIGEzg_rA6OR0wNOF-0"/>
         <object label="&lt;span&gt;heartbeat&lt;/span&gt;&lt;div&gt;[Container:&amp;nbsp;&lt;span&gt;technology&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Update Variable&lt;/div&gt;" placeholders="1" c4Name="name" c4Type="Container" c4Technology="technology" c4Description="Beschreibung" id="QS3fTnKQxivhpDRxpsuj-2">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=6;strokeColor=#6c8ebf;verticalAlign=top;" vertex="1" parent="E3brIGEzg_rA6OR0wNOF-1">
-            <mxGeometry x="320" y="150" width="410" height="290" as="geometry"/>
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=6;strokeColor=#6c8ebf;verticalAlign=top;" parent="E3brIGEzg_rA6OR0wNOF-1" vertex="1">
+            <mxGeometry x="330" y="150" width="400" height="290" as="geometry"/>
             <C4Container as="c4"/>
           </mxCell>
         </object>
         <object label="&lt;span&gt;Nest&lt;/span&gt;&lt;div&gt;[Component:&amp;nbsp;&lt;span&gt;technology&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;GL:InsideTemp (value)&lt;/div&gt;&lt;div&gt;GL:InsideHuman (value)&lt;br&gt;GL:InsideHeat (bool)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" placeholders="1" c4Name="name" c4Type="Component" c4Technology="technology" c4Description="Beschreibung" id="QS3fTnKQxivhpDRxpsuj-0">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fff2cc;align=center;arcSize=7;strokeColor=#d6b656;" vertex="1" parent="E3brIGEzg_rA6OR0wNOF-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fff2cc;align=center;arcSize=7;strokeColor=#d6b656;" parent="E3brIGEzg_rA6OR0wNOF-1" vertex="1">
             <mxGeometry x="550" y="300" width="160" height="110" as="geometry"/>
             <C4Component as="c4"/>
           </mxCell>
         </object>
         <object label="&lt;span&gt;Weather&lt;/span&gt;&lt;div&gt;[Component:&amp;nbsp;&lt;span&gt;technology&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;GL:OutsideTemp (value)&lt;/div&gt;&lt;div&gt;GL:OutsideCloud (string)&lt;/div&gt;&lt;div&gt;GL:OutsideWind (value)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" placeholders="1" c4Name="name" c4Type="Component" c4Technology="technology" c4Description="Beschreibung" id="E3brIGEzg_rA6OR0wNOF-2">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#ffe6cc;align=center;arcSize=7;strokeColor=#d79b00;" vertex="1" parent="E3brIGEzg_rA6OR0wNOF-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#ffe6cc;align=center;arcSize=7;strokeColor=#d79b00;" parent="E3brIGEzg_rA6OR0wNOF-1" vertex="1">
             <mxGeometry x="365" y="300" width="160" height="110" as="geometry"/>
             <C4Component as="c4"/>
           </mxCell>
         </object>
+        <mxCell id="2bRo6tNYaWpc605LRFuh-3" value="Heartbeat" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="E3brIGEzg_rA6OR0wNOF-1" source="QS3fTnKQxivhpDRxpsuj-2" target="2bRo6tNYaWpc605LRFuh-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="260" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Link" link="https://www.draw.io" id="2bRo6tNYaWpc605LRFuh-1">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;" vertex="1" parent="E3brIGEzg_rA6OR0wNOF-1">
+            <mxGeometry x="170" y="275" width="60" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
