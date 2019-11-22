@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-11-21T18:07:29.424Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="VAgogMWQFAQ5BarLmScu" version="12.2.8" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2019-11-22T08:33:25.889Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="lLuuacs3yx_wlbJT6_JQ" version="12.2.9" type="github" pages="3">
   <diagram id="RRbCEkmqkF7tnA--R-60" name="Movement">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1024" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -28,19 +28,19 @@
             <C4Component as="c4"/>
           </mxCell>
         </object>
-        <mxCell id="4PxpAGfARxo6lsyyR93c-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4PxpAGfARxo6lsyyR93c-1" target="Y9OF2ONfVtvooRnaM7Or-4">
+        <mxCell id="4PxpAGfARxo6lsyyR93c-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="4PxpAGfARxo6lsyyR93c-1" target="Y9OF2ONfVtvooRnaM7Or-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="270" y="151" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4PxpAGfARxo6lsyyR93c-1" value="Kitchen Hue" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/users/sensor.svg;" vertex="1" parent="1">
+        <mxCell id="4PxpAGfARxo6lsyyR93c-1" value="Kitchen Hue" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/users/sensor.svg;" parent="1" vertex="1">
           <mxGeometry x="120" y="70" width="60" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="uKoTwiScCRmJr88l8iwz" name="Verlichting">
-    <mxGraphModel dx="1024" dy="485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1024" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="5hVVTMUSqoloVB6yyULh-0"/>
         <mxCell id="5hVVTMUSqoloVB6yyULh-1" parent="5hVVTMUSqoloVB6yyULh-0"/>
@@ -48,13 +48,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sJ4iWAoiv2QwzduNVYzu" name="Externe Variable">
-    <mxGraphModel dx="1024" dy="485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="706" dy="368" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="E3brIGEzg_rA6OR0wNOF-0"/>
         <mxCell id="E3brIGEzg_rA6OR0wNOF-1" parent="E3brIGEzg_rA6OR0wNOF-0"/>
         <object label="&lt;span&gt;heartbeat&lt;/span&gt;&lt;div&gt;[Container:&amp;nbsp;&lt;span&gt;technology&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Update Variable&lt;/div&gt;" placeholders="1" c4Name="name" c4Type="Container" c4Technology="technology" c4Description="Beschreibung" id="QS3fTnKQxivhpDRxpsuj-2">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=6;strokeColor=#6c8ebf;verticalAlign=top;" parent="E3brIGEzg_rA6OR0wNOF-1" vertex="1">
-            <mxGeometry x="330" y="150" width="400" height="290" as="geometry"/>
+            <mxGeometry x="160" y="150" width="570" height="290" as="geometry"/>
             <C4Container as="c4"/>
           </mxCell>
         </object>
@@ -64,22 +64,54 @@
             <C4Component as="c4"/>
           </mxCell>
         </object>
-        <object label="&lt;span&gt;Weather&lt;/span&gt;&lt;div&gt;[Component:&amp;nbsp;&lt;span&gt;technology&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;GL:OutsideTemp (value)&lt;/div&gt;&lt;div&gt;GL:OutsideCloud (string)&lt;/div&gt;&lt;div&gt;GL:OutsideWind (value)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" placeholders="1" c4Name="name" c4Type="Component" c4Technology="technology" c4Description="Beschreibung" id="E3brIGEzg_rA6OR0wNOF-2">
+        <object label="&lt;span&gt;Weather&lt;/span&gt;&lt;div&gt;[Component:&amp;nbsp;&lt;span&gt;technology&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;GL:OutsideTemp (value)&lt;/div&gt;&lt;div&gt;&lt;span&gt;GL:WindSpeed (value)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;GL:SunSet (value)&lt;/div&gt;&lt;div&gt;GL:SunRise (value)&lt;/div&gt;&lt;div&gt;FL:Clouds (value)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" placeholders="1" c4Name="name" c4Type="Component" c4Technology="technology" c4Description="Beschreibung" id="E3brIGEzg_rA6OR0wNOF-2">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#ffe6cc;align=center;arcSize=7;strokeColor=#d79b00;" parent="E3brIGEzg_rA6OR0wNOF-1" vertex="1">
             <mxGeometry x="365" y="300" width="160" height="110" as="geometry"/>
             <C4Component as="c4"/>
           </mxCell>
         </object>
-        <mxCell id="2bRo6tNYaWpc605LRFuh-3" value="Heartbeat" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="E3brIGEzg_rA6OR0wNOF-1" source="QS3fTnKQxivhpDRxpsuj-2" target="2bRo6tNYaWpc605LRFuh-1">
+        <mxCell id="2bRo6tNYaWpc605LRFuh-3" value="Heartbeat" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="E3brIGEzg_rA6OR0wNOF-1" source="QS3fTnKQxivhpDRxpsuj-2" target="2bRo6tNYaWpc605LRFuh-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="210" y="260" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <UserObject label="Link" link="https://www.draw.io" id="2bRo6tNYaWpc605LRFuh-1">
-          <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;" vertex="1" parent="E3brIGEzg_rA6OR0wNOF-1">
-            <mxGeometry x="170" y="275" width="60" height="40" as="geometry"/>
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;" parent="E3brIGEzg_rA6OR0wNOF-1" vertex="1">
+            <mxGeometry x="30" y="275" width="60" height="40" as="geometry"/>
           </mxCell>
         </UserObject>
+        <object label="&lt;span&gt;Lux&lt;/span&gt;&lt;div&gt;[Component:&amp;nbsp;&lt;span&gt;technology&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;GL:Lux (value)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" placeholders="1" c4Name="name" c4Type="Component" c4Technology="technology" c4Description="Beschreibung" id="IMsaBToqoe1xOPlR2sFc-0">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#ffe6cc;align=center;arcSize=7;strokeColor=#d79b00;" vertex="1" parent="E3brIGEzg_rA6OR0wNOF-1">
+            <mxGeometry x="190" y="300" width="160" height="110" as="geometry"/>
+            <C4Component as="c4"/>
+          </mxCell>
+        </object>
+        <mxCell id="IMsaBToqoe1xOPlR2sFc-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="E3brIGEzg_rA6OR0wNOF-1" source="IMsaBToqoe1xOPlR2sFc-1" target="IMsaBToqoe1xOPlR2sFc-0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="355"/>
+              <mxPoint x="190" y="355"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IMsaBToqoe1xOPlR2sFc-1" value="Hue &amp;amp; Micro" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/users/sensor.svg;" vertex="1" parent="E3brIGEzg_rA6OR0wNOF-1">
+          <mxGeometry x="40" y="323" width="60" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="IMsaBToqoe1xOPlR2sFc-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="E3brIGEzg_rA6OR0wNOF-1" source="IMsaBToqoe1xOPlR2sFc-3" target="E3brIGEzg_rA6OR0wNOF-2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="IMsaBToqoe1xOPlR2sFc-3" value="OpenWeather" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sensor;fillColor=#5294CF;gradientColor=none;" vertex="1" parent="E3brIGEzg_rA6OR0wNOF-1">
+          <mxGeometry x="407" y="470" width="76.5" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="IMsaBToqoe1xOPlR2sFc-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="E3brIGEzg_rA6OR0wNOF-1" source="IMsaBToqoe1xOPlR2sFc-6" target="QS3fTnKQxivhpDRxpsuj-0">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="IMsaBToqoe1xOPlR2sFc-6" value="Nest Developer" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sensor;fillColor=#5294CF;gradientColor=none;" vertex="1" parent="E3brIGEzg_rA6OR0wNOF-1">
+          <mxGeometry x="592" y="470" width="76.5" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="IMsaBToqoe1xOPlR2sFc-8" value="FL:Clouds" style="fillColor=#ffff99;whiteSpace=wrap;shape=ellipse;html=1;fontSize=10;fontColor=#80FF00;" vertex="1" parent="E3brIGEzg_rA6OR0wNOF-1">
+          <mxGeometry x="290" y="379" width="60" height="31" as="geometry"/>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
