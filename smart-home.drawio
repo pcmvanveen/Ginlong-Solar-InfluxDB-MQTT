@@ -1,22 +1,22 @@
-<mxfile host="www.draw.io" modified="2019-11-22T10:44:04.066Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="GTB7qimXDIirmKU-VaNv" version="12.2.9" type="github" pages="3">
-  <diagram id="RRbCEkmqkF7tnA--R-60" name="Movement">
-    <mxGraphModel dx="1024" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+<mxfile host="www.draw.io" modified="2019-11-22T15:33:34.433Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="dHbI54YWD-hJhJbJsjNI" version="12.2.9" type="github" pages="3">
+  <diagram id="RRbCEkmqkF7tnA--R-60" name="Motion">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
         <mxCell id="Y9OF2ONfVtvooRnaM7Or-9" value="Update&amp;nbsp;&lt;br&gt;status" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Y9OF2ONfVtvooRnaM7Or-4" target="Y9OF2ONfVtvooRnaM7Or-8" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="cVA-L-KKg9IMRuLz01GV-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y9OF2ONfVtvooRnaM7Or-4" target="cVA-L-KKg9IMRuLz01GV-1">
+        <mxCell id="cVA-L-KKg9IMRuLz01GV-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Y9OF2ONfVtvooRnaM7Or-4" target="cVA-L-KKg9IMRuLz01GV-1" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <object label="&lt;span&gt;Sensor&lt;/span&gt;&lt;div&gt;[Container:&amp;nbsp;&lt;span&gt;technology&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Ghost detectie to set&amp;nbsp;&lt;br&gt;GL:Movement (bool)&lt;/div&gt;" placeholders="1" c4Name="name" c4Type="Container" c4Technology="technology" c4Description="Beschreibung" id="Y9OF2ONfVtvooRnaM7Or-4">
+        <object label="&lt;span&gt;Sensor&lt;/span&gt;&lt;div&gt;[Container:&amp;nbsp;&lt;span&gt;technology&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Ghost detectie to set&amp;nbsp;&lt;br&gt;GL:Motion (bool)&lt;/div&gt;" placeholders="1" c4Name="name" c4Type="Container" c4Technology="technology" c4Description="Beschreibung" id="Y9OF2ONfVtvooRnaM7Or-4">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=6;strokeColor=#6c8ebf;" parent="1" vertex="1">
             <mxGeometry x="280" y="90" width="160" height="110" as="geometry"/>
             <C4Container as="c4"/>
           </mxCell>
         </object>
-        <object label="Timer&lt;br&gt;&lt;div&gt;[Container:&amp;nbsp;&lt;span&gt;technology&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Timer to disable&amp;nbsp;&lt;/div&gt;&lt;div&gt;GL:Movement&lt;/div&gt;" placeholders="1" c4Name="Timer" c4Type="Container" c4Technology="technology" c4Description="op basis van de 24 klok worden bepaalde condities gezet voor het disablen van de movement (bool)" id="Y9OF2ONfVtvooRnaM7Or-8">
+        <object label="Timer&lt;br&gt;&lt;div&gt;[Container:&amp;nbsp;&lt;span&gt;technology&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Timer to disable&amp;nbsp;&lt;/div&gt;&lt;div&gt;GL:Motion&lt;/div&gt;" placeholders="1" c4Name="Timer" c4Type="Container" c4Technology="technology" c4Description="op basis van de 24 klok worden bepaalde condities gezet voor het disablen van de movement (bool)" id="Y9OF2ONfVtvooRnaM7Or-8">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=6;strokeColor=#6c8ebf;" parent="1" vertex="1">
             <mxGeometry x="500" y="90" width="160" height="110" as="geometry"/>
             <C4Container as="c4"/>
@@ -39,7 +39,7 @@
         <mxCell id="4PxpAGfARxo6lsyyR93c-1" value="Kitchen Hue" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/users/sensor.svg;" parent="1" vertex="1">
           <mxGeometry x="120" y="70" width="60" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="cVA-L-KKg9IMRuLz01GV-1" value="&lt;p&gt;Link:&lt;br&gt;Movement&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;align=center;fontSize=10;fontColor=#ffffff;fillColor=#a20025;strokeColor=#6F0000;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;horizontal=1;" vertex="1" parent="1">
+        <mxCell id="cVA-L-KKg9IMRuLz01GV-1" value="&lt;p&gt;Link:&lt;br&gt;Motion&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;align=center;fontSize=10;fontColor=#ffffff;fillColor=#a20025;strokeColor=#6F0000;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;horizontal=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="270" width="80" height="30" as="geometry"/>
         </mxCell>
       </root>
