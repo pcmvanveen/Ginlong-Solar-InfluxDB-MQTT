@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-22T15:33:46.736Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="Kt-nFk0AAVsvqM-lZIeb" version="12.2.9" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2019-11-23T07:41:11.751Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="v4FDILp4vbl7M1Aq_Bds" version="12.2.9" type="github" pages="3">
   <diagram id="RRbCEkmqkF7tnA--R-60" name="Motion">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
             <C4Container as="c4"/>
           </mxCell>
         </object>
-        <object label="Timer&lt;br&gt;&lt;div&gt;[Container:&amp;nbsp;&lt;span&gt;technology&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Timer to disable&amp;nbsp;&lt;/div&gt;&lt;div&gt;GL:Motion&lt;/div&gt;" placeholders="1" c4Name="Timer" c4Type="Container" c4Technology="technology" c4Description="op basis van de 24 klok worden bepaalde condities gezet voor het disablen van de movement (bool)" id="Y9OF2ONfVtvooRnaM7Or-8">
+        <object label="Timer&lt;br&gt;&lt;div&gt;[Container:&amp;nbsp;&lt;span&gt;technology&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Timer to reset&lt;/div&gt;&lt;div&gt;GL:Motion&lt;/div&gt;" placeholders="1" c4Name="Timer" c4Type="Container" c4Technology="technology" c4Description="op basis van de 24 klok worden bepaalde condities gezet voor het disablen van de movement (bool)" id="Y9OF2ONfVtvooRnaM7Or-8">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=6;strokeColor=#6c8ebf;" parent="1" vertex="1">
             <mxGeometry x="500" y="90" width="160" height="110" as="geometry"/>
             <C4Container as="c4"/>
