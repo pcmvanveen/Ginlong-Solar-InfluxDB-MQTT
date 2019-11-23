@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-23T07:41:11.751Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="v4FDILp4vbl7M1Aq_Bds" version="12.2.9" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2019-11-23T08:08:42.280Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="CBm53sXZgfACQuAi4CcI" version="12.2.9" type="github" pages="3">
   <diagram id="RRbCEkmqkF7tnA--R-60" name="Motion">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -46,15 +46,15 @@
     </mxGraphModel>
   </diagram>
   <diagram id="uKoTwiScCRmJr88l8iwz" name="Verlichting">
-    <mxGraphModel dx="1024" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="5hVVTMUSqoloVB6yyULh-0"/>
         <mxCell id="5hVVTMUSqoloVB6yyULh-1" parent="5hVVTMUSqoloVB6yyULh-0"/>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="sJ4iWAoiv2QwzduNVYzu" name="Externe Variable">
-    <mxGraphModel dx="1024" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+  <diagram id="sJ4iWAoiv2QwzduNVYzu" name="Global Variable">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="E3brIGEzg_rA6OR0wNOF-0"/>
         <mxCell id="E3brIGEzg_rA6OR0wNOF-1" parent="E3brIGEzg_rA6OR0wNOF-0"/>
