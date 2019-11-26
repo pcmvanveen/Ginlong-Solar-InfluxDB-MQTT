@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-11-23T19:07:47.469Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="4MkOo1wcEfcIIkzILus5" version="12.2.9" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2019-11-26T07:02:20.749Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="6u6dRDbr3eJDMNQHAJiu" version="12.3.0" type="github" pages="3">
   <diagram id="RRbCEkmqkF7tnA--R-60" name="Motion">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1024" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -54,7 +54,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sJ4iWAoiv2QwzduNVYzu" name="Global Variable">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1024" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="E3brIGEzg_rA6OR0wNOF-0"/>
         <mxCell id="E3brIGEzg_rA6OR0wNOF-1" parent="E3brIGEzg_rA6OR0wNOF-0"/>
@@ -70,7 +70,7 @@
             <C4Component as="c4"/>
           </mxCell>
         </object>
-        <object label="&lt;span&gt;Weather&lt;/span&gt;&lt;div&gt;[Component:&amp;nbsp;&lt;span&gt;technology&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;GL:OutsideTemp (value)&lt;/div&gt;&lt;div&gt;&lt;span&gt;GL:WindSpeed (value)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;GL:SunSet (value)&lt;/div&gt;&lt;div&gt;GL:SunRise (value)&lt;/div&gt;&lt;div&gt;FL:Clouds (value)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" placeholders="1" c4Name="name" c4Type="Component" c4Technology="technology" c4Description="Beschreibung" id="E3brIGEzg_rA6OR0wNOF-2">
+        <object label="&lt;span&gt;Weather&lt;/span&gt;&lt;div&gt;[Component:&amp;nbsp;&lt;span&gt;technology&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;GL:OutsideTemp (value)&lt;/div&gt;&lt;div&gt;&lt;span&gt;GL:WindSpeed (value)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;GL:SunRise (value)&lt;/div&gt;&lt;div&gt;FL:Clouds (value)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" placeholders="1" c4Name="name" c4Type="Component" c4Technology="technology" c4Description="Beschreibung" id="E3brIGEzg_rA6OR0wNOF-2">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#ffe6cc;align=center;arcSize=7;strokeColor=#d79b00;" parent="E3brIGEzg_rA6OR0wNOF-1" vertex="1">
             <mxGeometry x="365" y="300" width="160" height="110" as="geometry"/>
             <C4Component as="c4"/>
