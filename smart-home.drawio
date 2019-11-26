@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-26T07:02:20.749Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="6u6dRDbr3eJDMNQHAJiu" version="12.3.0" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2019-11-26T12:11:05.567Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="OTViAT7QoqW47xyfe0sb" version="12.3.1" type="github" pages="3">
   <diagram id="RRbCEkmqkF7tnA--R-60" name="Motion">
     <mxGraphModel dx="1024" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -46,10 +46,37 @@
     </mxGraphModel>
   </diagram>
   <diagram id="uKoTwiScCRmJr88l8iwz" name="Verlichting">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1024" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="5hVVTMUSqoloVB6yyULh-0"/>
         <mxCell id="5hVVTMUSqoloVB6yyULh-1" parent="5hVVTMUSqoloVB6yyULh-0"/>
+        <object label="Lux level&lt;br&gt;&lt;br&gt;Kitchen Cupboard&lt;br&gt;DiningRoom" placeholders="1" c4Name="name" c4Type="Container" c4Technology="technology" c4Description="Beschreibung" id="y2emOHiqxw0gDKF_SnPh-0">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=6;strokeColor=#6c8ebf;" vertex="1" parent="5hVVTMUSqoloVB6yyULh-1">
+            <mxGeometry x="120" y="160" width="220" height="120" as="geometry"/>
+            <C4Container as="c4"/>
+          </mxCell>
+        </object>
+        <object label="&lt;br&gt;Time&amp;nbsp;&lt;br&gt;&lt;br&gt;Garden&amp;nbsp;&lt;br&gt;FishTank" placeholders="1" c4Name="name" c4Type="Container" c4Technology="technology" c4Description="Beschreibung" id="y2emOHiqxw0gDKF_SnPh-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=6;strokeColor=#6c8ebf;" vertex="1" parent="5hVVTMUSqoloVB6yyULh-1">
+            <mxGeometry x="370" y="160" width="220" height="120" as="geometry"/>
+            <C4Container as="c4"/>
+          </mxCell>
+        </object>
+        <object label="&lt;br&gt;Lux Level&amp;nbsp;&lt;br&gt;Audio status&lt;br&gt;&lt;br&gt;Couch&lt;br&gt;BuffetKast" placeholders="1" c4Name="name" c4Type="Container" c4Technology="technology" c4Description="Beschreibung" id="y2emOHiqxw0gDKF_SnPh-2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=6;strokeColor=#6c8ebf;" vertex="1" parent="5hVVTMUSqoloVB6yyULh-1">
+            <mxGeometry x="120" y="310" width="220" height="120" as="geometry"/>
+            <C4Container as="c4"/>
+          </mxCell>
+        </object>
+        <mxCell id="y2emOHiqxw0gDKF_SnPh-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5hVVTMUSqoloVB6yyULh-1" source="y2emOHiqxw0gDKF_SnPh-3" target="y2emOHiqxw0gDKF_SnPh-2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <object label="&lt;br&gt;Lux Level&amp;nbsp;&lt;br&gt;Time&lt;br&gt;&lt;br&gt;Hall" placeholders="1" c4Name="name" c4Type="Container" c4Technology="technology" c4Description="Beschreibung" id="y2emOHiqxw0gDKF_SnPh-3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=6;strokeColor=#6c8ebf;" vertex="1" parent="5hVVTMUSqoloVB6yyULh-1">
+            <mxGeometry x="370" y="310" width="220" height="120" as="geometry"/>
+            <C4Container as="c4"/>
+          </mxCell>
+        </object>
       </root>
     </mxGraphModel>
   </diagram>
