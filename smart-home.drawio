@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-26T12:11:05.567Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="OTViAT7QoqW47xyfe0sb" version="12.3.1" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2019-11-26T12:29:27.735Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="kC0tlKKm9vW4pdKJkDXx" version="12.3.1" type="github" pages="3">
   <diagram id="RRbCEkmqkF7tnA--R-60" name="Motion">
     <mxGraphModel dx="1024" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -58,7 +58,7 @@
         </object>
         <object label="&lt;br&gt;Time&amp;nbsp;&lt;br&gt;&lt;br&gt;Garden&amp;nbsp;&lt;br&gt;FishTank" placeholders="1" c4Name="name" c4Type="Container" c4Technology="technology" c4Description="Beschreibung" id="y2emOHiqxw0gDKF_SnPh-1">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=6;strokeColor=#6c8ebf;" vertex="1" parent="5hVVTMUSqoloVB6yyULh-1">
-            <mxGeometry x="370" y="160" width="220" height="120" as="geometry"/>
+            <mxGeometry x="370" y="310" width="220" height="120" as="geometry"/>
             <C4Container as="c4"/>
           </mxCell>
         </object>
@@ -68,12 +68,64 @@
             <C4Container as="c4"/>
           </mxCell>
         </object>
-        <mxCell id="y2emOHiqxw0gDKF_SnPh-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5hVVTMUSqoloVB6yyULh-1" source="y2emOHiqxw0gDKF_SnPh-3" target="y2emOHiqxw0gDKF_SnPh-2">
+        <mxCell id="y2emOHiqxw0gDKF_SnPh-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="5hVVTMUSqoloVB6yyULh-1" source="y2emOHiqxw0gDKF_SnPh-5" target="y2emOHiqxw0gDKF_SnPh-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="370" as="sourcePoint"/>
+            <Array as="points"/>
+          </mxGeometry>
+        </mxCell>
+        <object label="&lt;br&gt;Lux Level&amp;nbsp;&lt;br&gt;Movement&lt;br&gt;&lt;br&gt;Kitchen&lt;br&gt;Hall" placeholders="1" c4Name="name" c4Type="Container" c4Technology="technology" c4Description="Beschreibung" id="y2emOHiqxw0gDKF_SnPh-5">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=6;strokeColor=#6c8ebf;" vertex="1" parent="5hVVTMUSqoloVB6yyULh-1">
+            <mxGeometry x="370" y="160" width="220" height="120" as="geometry"/>
+            <C4Container as="c4"/>
+          </mxCell>
+        </object>
+        <mxCell id="y2emOHiqxw0gDKF_SnPh-6" value="Dimmer" style="ellipse;whiteSpace=wrap;html=1;fillColor=#66FFFF;" vertex="1" parent="5hVVTMUSqoloVB6yyULh-1">
+          <mxGeometry x="530" y="170" width="50" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="y2emOHiqxw0gDKF_SnPh-7" value="" style="group;rounded=0;labelBackgroundColor=none;fillColor=none;fontColor=#000000;align=center;html=1;" vertex="1" connectable="0" parent="5hVVTMUSqoloVB6yyULh-1">
+          <mxGeometry x="130" y="540" width="130" height="130" as="geometry"/>
+          <C4Person as="c4"/>
+        </mxCell>
+        <object label="name&lt;div&gt;[Person]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Beschreibung&lt;/div&gt;" placeholders="1" c4Name="name" c4Type="body" c4Description="Beschreibung" id="y2emOHiqxw0gDKF_SnPh-8">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=33;strokeColor=#6c8ebf;" vertex="1" parent="y2emOHiqxw0gDKF_SnPh-7">
+            <mxGeometry y="50.55555555555556" width="130" height="79.44444444444444" as="geometry"/>
+            <C4Person as="c4"/>
+          </mxCell>
+        </object>
+        <mxCell id="y2emOHiqxw0gDKF_SnPh-9" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;labelBackgroundColor=none;fillColor=#dae8fc;fontSize=12;fontColor=#000000;align=center;strokeColor=#6c8ebf;" vertex="1" parent="y2emOHiqxw0gDKF_SnPh-7">
+          <mxGeometry x="32.5" width="57.77777777777778" height="57.77777777777778" as="geometry"/>
+          <C4Person as="c4"/>
+        </mxCell>
+        <mxCell id="y2emOHiqxw0gDKF_SnPh-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5hVVTMUSqoloVB6yyULh-1" source="y2emOHiqxw0gDKF_SnPh-10" target="y2emOHiqxw0gDKF_SnPh-12">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <object label="&lt;br&gt;Lux Level&amp;nbsp;&lt;br&gt;Time&lt;br&gt;&lt;br&gt;Hall" placeholders="1" c4Name="name" c4Type="Container" c4Technology="technology" c4Description="Beschreibung" id="y2emOHiqxw0gDKF_SnPh-3">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=6;strokeColor=#6c8ebf;" vertex="1" parent="5hVVTMUSqoloVB6yyULh-1">
-            <mxGeometry x="370" y="310" width="220" height="120" as="geometry"/>
+        <object label="DashBoard&lt;div&gt;[Software System]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Override settings&lt;/div&gt;" placeholders="1" c4Name="name" c4Type="SoftwareSystem" c4Description="Beschreibung" id="y2emOHiqxw0gDKF_SnPh-10">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#99FF99;align=center;arcSize=7;strokeColor=#82b366;" vertex="1" parent="5hVVTMUSqoloVB6yyULh-1">
+            <mxGeometry x="330" y="495" width="160" height="110" as="geometry"/>
+            <C4SoftwareSystem as="c4"/>
+          </mxCell>
+        </object>
+        <mxCell id="y2emOHiqxw0gDKF_SnPh-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="5hVVTMUSqoloVB6yyULh-1" source="y2emOHiqxw0gDKF_SnPh-11" target="y2emOHiqxw0gDKF_SnPh-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="620" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <object label="Alexa&lt;div&gt;[Software System]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Override settings&lt;/div&gt;" placeholders="1" c4Name="name" c4Type="SoftwareSystem" c4Description="Beschreibung" id="y2emOHiqxw0gDKF_SnPh-11">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FF6666;fontColor=#000000;align=center;arcSize=7;strokeColor=#6c8ebf;" vertex="1" parent="5hVVTMUSqoloVB6yyULh-1">
+            <mxGeometry x="330" y="630" width="160" height="110" as="geometry"/>
+            <C4SoftwareSystem as="c4"/>
+          </mxCell>
+        </object>
+        <object label="&lt;div style=&quot;text-align: left&quot;&gt;OverRide&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;[Flow Setting]&lt;br&gt;FishTank,&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;Garden,&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;Dinning,&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;Couch,&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;KitchenCupBoard&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;Kitchen&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;KitchenDoor&lt;/div&gt;" placeholders="1" c4Name="OverRide" c4Type="ExecutionEnvironment" c4Application="Flow Setting" id="y2emOHiqxw0gDKF_SnPh-12">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#ffffff;fontColor=#000000;align=left;arcSize=3;strokeColor=#000000;verticalAlign=bottom;" vertex="1" parent="5hVVTMUSqoloVB6yyULh-1">
+            <mxGeometry x="550" y="550" width="160" height="130" as="geometry"/>
+            <C4ExecutionEnvironment as="c4"/>
+          </mxCell>
+        </object>
+        <object label="&lt;span&gt;OverRide&lt;/span&gt;&lt;div&gt;[Container:&amp;nbsp;&lt;span&gt;technology&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;To override system settings&lt;/div&gt;" placeholders="1" c4Name="OverRide" c4Type="Container" c4Technology="technology" c4Description="To override system settings" id="y2emOHiqxw0gDKF_SnPh-16">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;fontColor=#000000;align=left;arcSize=6;strokeColor=#990099;strokeWidth=2;verticalAlign=bottom;fontSize=15;" vertex="1" parent="5hVVTMUSqoloVB6yyULh-1">
+            <mxGeometry x="120" y="460" width="600" height="310" as="geometry"/>
             <C4Container as="c4"/>
           </mxCell>
         </object>
