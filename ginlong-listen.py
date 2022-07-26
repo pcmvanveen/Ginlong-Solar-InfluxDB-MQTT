@@ -97,6 +97,7 @@ while True:
 		day = timestamp.strftime("%d")
 		if float(dayinit.readline()) != day:
 			if pac == 0 : kwhtoday = float(0)
+			dayinit.seek(0)	
 			else: dayinit.write(day)
 		dayinit.close()
 
